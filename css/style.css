@@ -1,0 +1,114 @@
+/*Layout*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    width: 100%;
+    background-color: blue;
+    min-height: 40px;
+    
+}
+
+.content_wraper {
+    
+}
+
+.sidebar {
+    width: 20%;
+    background-color: green;
+    min-height: 1200px;
+    float: left;
+}
+
+.contant {
+    width: 80%;
+    background-color: gainsboro;
+    min-height: 1200px;
+    float: right;
+    
+}
+
+
+.footer {
+    width: 100%;
+    background-color: black;
+    min-height: 20px;
+    clear: both;
+}
+.footer h5{
+    color: red;
+    text-align: center;
+}
+
+
+
+/*Menu Bar*/
+
+.menu_bar{
+    background-color: blue;
+    min-height: 25px;
+    width: 385px;  
+    margin: 0px auto;
+    
+}
+    .menu_bar ul{
+        list-style: none;
+        margin: 0px;
+        padding: 10px;
+
+    }
+            .menu_bar ul li{
+                float: left
+            }
+                .menu_bar ul li a{
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: white;
+                    text-decoration: none;
+                    padding: 10px;
+                    transition: 1s;
+                    transform: scale(1.1);
+                }
+                    .menu_bar ul li a:hover{
+                        color: red;
+   
+        
+                    }
+
+
+/*Home Text*/
+h1{
+    text-align: center;
+    
+}
+
+
+/*Gallery*/
+
+    
+    .contant ul{
+        list-style: none;
+    
+    }
+        .contant ul li{
+            float: left;
+            margin: 10px;
+}
+
+
+/*Videos*/
+
+    .contant ul{
+        list-style: none;
+        
+    }
+        .contant ul li{
+
+        }
+
+h4{
+    color: orangered;
+    text-align: center;
+    font-size: 30px;
+}
